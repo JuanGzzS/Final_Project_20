@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8"/>
+    <title> ADMIN. - DBY </title>
+    <link href="../css/homeadmin.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+        <div id="topP">
+          <h1> ADMINISTRATOR PAGE</h1>
+          <section class="greeting"></section>
+          <input type="submit" value="LOG OUT" id="lgBttn">
+        </div>
+      <div id="donuts">
+
+      </div>
+    </main>
+
+  <section>
+      <div class="formsEdit">
+      <form id = "newB">
+        <h3> ADD NEW PRODUCT </h3>
+
+        <div><input type="text" id="newName" placeholder="NAME"></div>
+        <div><textarea id="newIng" placeholder="INGREDIENTS"></textarea></div>
+        <input type="text" id="newTag" placeholder="TAG">
+        <input type="number" id="newPrice" placeholder="PRICE">
+        <input type="text" id="newImg" placeholder="IMAGE URL">
+        <div><input type="submit" id = "submitN" value="ADD"></div>
+      </form>
+  
+      <form id = "deleteB">
+        <h3> DELETE A PRODUCT FROM MENU </h3>
+
+        <input type="text" id="deleteId" placeholder="ID of the ITEM">
+         <input type="submit" id = "submitD" value="DELETE">
+      </form>
+  
+      <form id = "updateB">
+        <h3> EDIT PRODUCT INFORMATION </h3>
+
+        <input type="text" id="updateId" placeholder=" ID ">
+        <div><input type="text" id="updateN" placeholder=" NEW NAME"></div>
+        <div><textarea id="updateIng" placeholder="NEW INGREDIENTS"></textarea></div>
+        <input type="text" id="updateTag" placeholder="NEW TAG">
+        <input type="number" id="updatePrice" placeholder="NEW PRICE">
+        <input type="text" id="updateImg" placeholder="NEW IMAGE URL">
+        <div><input type="submit" id = "submitB" value="UPDATE"></div>
+    </form>
+    </div>
+  </section>
+       
+       <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+      <script type="text/javascript" src="../js/homeadmin.js"></script>
+  </body>
+  </html>

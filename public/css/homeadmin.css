@@ -1,0 +1,237 @@
+
+/*HERE IT GOES THE MEDIA QUERY, IT HAS BEEN SETUP FOR DESKTOP AND MOBILE*/
+@media only screen and (min-width: 940px) {
+
+body{
+
+	background-color: #900C3F;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #D7EA69;
+}
+
+input{
+
+	text-align: center;
+	background-color: #F2D261;
+	border-radius: 12px;
+
+}
+
+
+textarea{
+
+	text-align: center;	
+	border-radius: 12px;
+	background-color: #F2D261;
+}
+
+#submitN:hover{
+
+	border : 2px solid #F2D261;
+	background-color: white;
+	cursor: pointer;
+
+}
+
+#submitD:hover{
+
+	border : 2px solid #F2D261;
+	background-color: white;
+	cursor: pointer;
+	
+}
+
+#submitB:hover{
+
+	border : 2px solid #F2D261;
+	background-color: white;
+	cursor: pointer;
+}
+
+#newB{
+
+	background-color: #05087A;
+	padding: 5px;
+}
+
+#updateB{
+
+	background-color: #05087A;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#topP{
+
+	text-align: center;
+	padding-bottom: 30px;
+	background-color: #FF5733;
+	color: #150B6B;
+}
+
+.greeting{
+
+	font-size: 30px;
+	font-style: italic;
+}
+
+.imgD{
+
+	height: 60px;
+	width: 80px;
+}
+
+#itemD{
+
+	float: left;
+    display: block;
+    margin: 10px;
+
+ }
+
+ #newB{
+
+ 	margin-top: 25%;
+ }
+
+.formsEdit{
+
+	text-align: center;
+	color: white;
+}
+
+#lgBttn{
+
+	margin-top: 15px;
+	background-color: red;
+	color: white;
+	border : 2px solid red;
+}
+
+#lgBttn:hover{
+
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+
+
+}
+
+/*----------MEDIA QUERY CHANGE FOR MOBILE ----------*/
+
+@media only screen and (max-width: 940px) {
+
+body{
+
+	background-color: #900C3F;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #D7EA69;
+}
+
+input{
+
+	text-align: center;
+	background-color: #F2D261;
+	border-radius: 12px;
+
+}
+
+
+
+textarea{
+
+	text-align: center;	
+	border-radius: 12px;
+	background-color: #F2D261;
+}
+
+#submitN:hover{
+
+	border : 2px solid #F2D261;
+	background-color: white;
+	cursor: pointer;
+
+}
+
+#submitD:hover{
+
+	border : 2px solid #F2D261;
+	background-color: white;
+	cursor: pointer;
+	
+}
+
+#submitB:hover{
+
+	border : 2px solid #F2D261;
+	background-color: white;
+	cursor: pointer;
+}
+
+#newB{
+
+	background-color: #05087A;
+	padding: 5px;
+}
+
+#updateB{
+
+	background-color: #05087A;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#topP{
+
+	text-align: center;
+	padding-bottom: 30px;
+	background-color: #FF5733;
+	color: #150B6B;
+}
+
+.greeting{
+
+	font-size: 30px;
+	font-style: italic;
+}
+
+.imgD{
+
+	height: 60px;
+	width: 80px;
+}
+
+ #newB{
+
+ 	margin-top: 25%;
+ }
+
+.formsEdit{
+
+	text-align: center;
+	color: white;
+}
+
+#donuts{
+
+	margin-top: 10px;
+	text-align: center;
+}
+
+#lgBttn{
+
+	margin-top: 15px;
+	background-color: red;
+	color: white;
+	border : 2px solid red;
+}
+
+#lgBttn:hover{
+
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+
+}

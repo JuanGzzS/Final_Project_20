@@ -1,0 +1,740 @@
+
+/*HERE IT GOES THE MEDIA QUERY, IT HAS BEEN SETUP FOR DESKTOP AND MOBILE*/
+@media only screen and (min-width: 840px) {
+
+body{
+
+	background-color: #900C3F;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#top{
+
+	color: #150B6B;
+	background-color: #FF5733;
+	padding: 30px;
+	
+
+}
+
+
+header {
+  background-color: #FF5733;;
+  padding: 20px;
+  text-align: center;
+}
+
+/*NAV BAR STYLE*/
+
+.navbar {
+  
+
+  background-color: #E5FAFA;
+  color:#14F58F;
+  padding: 30px;
+  text-align: left;
+  color: #150B6B;
+
+}
+
+a{
+
+  	padding: 30px;
+  	text-decoration: none;
+}
+
+.navbar a:hover{
+
+	background-color:#D7EA69;
+  	color: black;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  	cursor: pointer;
+
+  	
+}
+
+#logOut{
+
+	font-style: italic;
+	font-size: 15px;
+	margin-left: 130px;
+}
+/*FUNTCIONS OF CLASS TO SWITCH VISIBILITY OF A ELEMENT*/
+.onVis {
+
+	visibility: visible;
+}
+
+.offVis {
+
+	visibility: hidden;
+}
+
+.fullpage{
+
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+/*MAIN PAGE WHEN YOU SIGN IN AS A COSTUMER SO YOU CAN BUY ANYTHING OR SEE INFORMATION*/
+.mainpage {
+
+	margin-left: -70px;
+	margin-right: 40px; 
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+
+}
+
+.newProduct {
+
+	margin: 100px;
+	padding-left: 20px;
+	color: #D7EA69;
+
+}
+
+#NewF{
+
+	font-style: italic;
+	font-size: 35px;
+	border-bottom: 5px;
+	border-style: double;
+}
+
+.publicity {
+
+	margin: 100px;
+	padding-left: 10px;
+	color: #9497FE;
+	
+}
+
+#ourF{
+
+	font-style: italic;
+	font-size: 35px;
+	border-bottom: 5px;
+	border-style: double;
+}
+
+/*CREATE YOUR DONUT SPACE*/
+
+#createDonut {
+
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: -1500px;
+	margin-right: 600px;
+	padding-left: 500px;
+	
+}
+
+#chooseD{
+
+	font-style: bold;
+	font-size: 35px;
+	border-bottom: 5px;
+	border-style: double;
+	color: #9497FE;
+}
+
+#messA{
+
+	font-style: italic;
+	color: #9497FE;
+}
+
+#myselect{
+
+  background-color: #D7EA69;
+  color: #150B6B;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+}
+
+#myselect:hover{
+
+  background-color: #9497FE;
+
+}
+
+#infoS{
+
+	font-style: italic;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+#submitSearch{
+
+	font-size: 30px;
+	margin-bottom: 15px;
+
+}
+
+#submitSearch:hover{
+
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 30px 0 rgba(0,0,0,0.19);
+	background-color: #4CAF50; 
+  	color: white;
+  	cursor: pointer;
+}
+
+#resetSearch{
+
+	font-size: 30px;
+}
+
+#resetSearch:hover{
+
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 30px 0 rgba(0,0,0,0.19);
+	background-color: #f44336 ; 
+  	color: white;
+  	cursor: pointer;
+
+}
+
+#errorMes{
+
+	font-style: bold;
+	font-size: 35px;
+	color: #f44336;
+}
+
+
+
+.imgD{
+
+	margin-top: 20px;
+	width:200px;
+	height:200px;
+}
+
+.imgF{
+
+	margin-top: 20px;
+	width:300px;
+	height:300px;
+}
+
+#donuts{
+
+	color: #D7EA69;
+
+}
+
+.nameDonuts{
+
+	font-size: 30px;
+}
+
+.nameDonuts:hover{
+
+	font-style: italic;
+	cursor: pointer;
+}
+/*ABOUT US*/
+
+#aboutUs{
+
+	color: #D7EA69;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: -1750px;
+
+}
+
+.titleU{
+
+	color: #150B6B;
+	
+}
+
+/*YOUR INFO*/
+
+#userInfo{
+
+	color: #D7EA69;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: -1750px;
+
+}
+
+.greeting{
+
+	margin-top: 90px;
+	font-style: italic;
+	font-size: 25px;
+}
+
+#lastPay{
+
+	color:#9497FE;
+
+}
+
+li{
+
+	list-style: none;
+}
+
+/* YOUR CART CHECKOUT */
+
+#userCart{
+
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: -1700px;
+	
+}
+
+#checkC{
+
+	margin-left: 20px;
+	font-size: 45px;
+	color: #4CEA83;
+}
+
+
+#submitPay{
+
+	margin-top: 20px;
+	background-color: #4CAF50;
+	font-size: 15px;
+	padding: 10px 20px;
+	border: 2px solid #4CAF50;
+}
+
+#submitPay:hover{
+
+	cursor: pointer;
+	background-color: #900C3F;
+  	color: white;
+}
+
+.orderD{
+
+	color: white;
+}
+
+.orderP{
+
+	color: #38E815;
+}
+
+.bttnDel{
+
+	background-color: #FA8A93;
+	font-size: 15px;
+	padding: 10px 20px;
+	border: 2px solid #FA8A93;	
+
+}
+
+.bttnDel:hover{
+
+	cursor: pointer;
+	background-color: #900C3F;
+  	color: white;
+	
+}
+
+#check{
+
+	color: white;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.payMet{
+
+  margin-top: 20px;	
+  background-color: #D7EA69;
+  color: #150B6B;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+
+}
+
+}
+/*----------------------------------MEDIA QUERY CHANGE FOR MOBILE ---------------------------*/
+
+@media only screen and (max-width: 840px) {
+
+body{
+
+	background-color: #900C3F;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#top{
+
+	color: #150B6B;
+	background-color: #FF5733;
+	padding: 30px;
+	
+
+}
+
+
+header {
+  background-color: #FF5733;;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  
+  display: flex;
+  flex-direction: column;
+  background-color: #E5FAFA;
+  color:#14F58F;
+  padding: 30px;
+  text-align: left;
+  color: #150B6B;
+
+}
+
+a{
+
+  	padding: 30px;
+  	text-decoration: none;
+}
+
+.navbar a:hover{
+
+	background-color:#D7EA69;
+  	color: black;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  	cursor: pointer;
+
+  	
+}
+
+#logOut{
+
+	font-style: italic;
+	font-size: 15px;
+
+}
+/*FUNTCIONS OF CLASS TO SWITCH VISIBILITY OF A ELEMENT*/
+.onVis {
+
+	visibility: visible;
+}
+
+.offVis {
+
+	visibility: hidden;
+}
+
+/*MAIN PAGE WHEN YOU SIGN IN AS A COSTUMER SO YOU CAN BUY ANYTHING OR SEE INFORMATION*/
+.fullpage{
+
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.mainpage {
+
+	float: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-left: 50px;
+
+}
+
+.newProduct {
+
+	margin: 100px;
+	padding-left: 20px;
+	color: #D7EA69;
+
+}
+
+#NewF{
+
+	font-style: italic;
+	font-size: 35px;
+	border-bottom: 5px;
+	border-style: double;
+}
+
+.publicity {
+
+	margin: 100px;
+	padding-left: 10px;
+	color: #9497FE;
+	
+}
+
+#ourF{
+
+	font-style: italic;
+	font-size: 35px;
+	border-bottom: 5px;
+	border-style: double;
+}
+
+/*CREATE YOUR DONUT SPACE*/
+
+#createDonut {
+
+	text-align: center;
+	margin-left: -500px;
+}
+
+#chooseD{
+
+	font-style: bold;
+	font-size: 35px;
+	border-bottom: 5px;
+	border-style: double;
+	color: #9497FE;
+}
+
+#messA{
+
+	font-style: italic;
+	color: #9497FE;
+}
+
+#myselect{
+
+  background-color: #D7EA69;
+  color: #150B6B;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+
+}
+
+#myselect:hover{
+
+  background-color: #9497FE;
+
+}
+
+#infoS{
+
+	font-style: italic;
+	font-size: 15px;
+}
+
+#submitSearch{
+
+	font-size: 30px;
+
+}
+
+#submitSearch:hover{
+
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 30px 0 rgba(0,0,0,0.19);
+	background-color: #4CAF50; 
+  	color: white;
+  	cursor: pointer;
+}
+
+#resetSearch{
+
+	font-size: 30px;
+}
+
+#resetSearch:hover{
+
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 30px 0 rgba(0,0,0,0.19);
+	background-color: #f44336 ; 
+  	color: white;
+  	cursor: pointer;
+
+}
+
+#errorMes{
+
+	font-style: bold;
+	font-size: 35px;
+	color: #f44336;
+}
+
+
+
+.imgD{
+
+	margin-top: 20px;
+	width:200px;
+	height:200px;
+}
+
+.imgF{
+
+	margin-top: 20px;
+	width:300px;
+	height:300px;
+}
+
+#donuts{
+
+	color: #D7EA69;
+
+}
+
+.nameDonuts{
+
+	font-size: 30px;
+}
+
+.nameDonuts:hover{
+
+	font-style: italic;
+	cursor: pointer;
+}
+/*ABOUT US*/
+
+#aboutUs{
+
+	color: #D7EA69;
+	text-align: center;
+	margin-left: -550px;
+}
+
+.titleU{
+
+	color: #150B6B;
+	
+}
+
+/*YOUR INFO*/
+
+#userInfo{
+
+	margin-left: -700px;
+	margin-top: 20px;
+	color: #D7EA69;
+	text-align: center;
+
+}
+
+.greeting{
+
+	font-style: italic;
+	font-size: 25px;
+}
+
+#lastPay{
+
+	color:#9497FE;
+
+}
+
+li{
+
+	list-style: none;
+}
+
+/* YOUR CART CHECKOUT */
+
+#userCart{
+
+	margin-left: -500px;
+}
+
+#checkC{
+
+	margin-left: 20px;
+	font-size: 45px;
+	color: #4CEA83;
+}
+
+
+#submitPay{
+
+	margin-top: 20px;
+	background-color: #4CAF50;
+	font-size: 15px;
+	padding: 10px 20px;
+	border-radius: 50%;
+	border: 2px solid #4CAF50;
+	margin-left: 100px;
+}
+
+#submitPay:hover{
+
+	cursor: pointer;
+	background-color: #900C3F;
+  	color: white;
+}
+
+.orderD{
+
+	color: white;
+}
+
+.orderP{
+
+	color: #38E815;
+}
+
+.bttnDel{
+
+	background-color: #FA8A93;
+	font-size: 15px;
+	padding: 10px 20px;
+	border: 2px solid #FA8A93;	
+
+}
+
+.bttnDel:hover{
+
+	cursor: pointer;
+	background-color: #900C3F;
+  	color: white;
+	
+}
+
+#check{
+
+	color: white;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.payMet{
+
+  margin-top: 20px;	
+  background-color: #D7EA69;
+  color: #150B6B;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+
+}
+
+}
+
+
+
+
+
+
+
+

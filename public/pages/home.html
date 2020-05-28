@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<html lang="EN">
+  <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>
+      DBY - HOME PAGE
+    </title>
+    <link href="../css/home.css" rel="stylesheet" type="text/css" />
+    <div id="top">
+      <h1> WELCOME TO DONUT BY YOU </h1>
+    </div>
+  </header>
+
+  <body>
+    <main>
+    <nav class="navbar">
+      <a id="createD"> DONUT MENU </a>
+      <a id="aboutU"> ABOUT US </a>
+      <a id="userI"> YOUR INFO </a>
+      <a id="userC"> YOUR CART </a>
+      <a id="logOut"> LOG OUT </a>
+    </nav>
+
+    
+<div class="fullpage">
+  <section>
+    <div class="mainpage">
+
+      <div class="newProduct">
+        <h2 id="NewF">NEW FLAVORS</h2>
+          <img src="https://pluspng.com/img-png/doughnut-png-hd-food-donuts-500.png" alt="New-Donut-TastyPink" class="imgD">
+          <h3> " TastyPink " - Strawberry cover and sprinkles </h3>
+
+          <img src="https://66.media.tumblr.com/ed542d64c0d9533b4e9bc8906eb02213/tumblr_oilzveqD181urr944o1_400.png" alt="New-Donut-LoveDonuts" class="imgD">
+          <h3> " For Love " - 6 donuts with white chocolate cover and decorated </h3>
+      </div>
+  
+     <div class="publicity">
+        <h2 id="ourF">OUR FRIENDS</h2>
+        <img src="https://pngimage.net/wp-content/uploads/2018/06/people-eating-png-5.png" class="imgF">
+         <h3> "I enjoy visitng DBY, the donuts are really good and I had a great time" - Lauren K.</h3>
+      </div>
+    </div>
+    
+  </section>
+
+   <section>
+    <div id="createDonut" class="offVis">
+      <h2 id="chooseD"> Choose Your Donut </h2>
+      <h4 id="messA"> Remember ! To add to your cart just click on the name  </h4>
+      <select id="myselect">
+        <option value="0"> Search Option:</option>
+        <option value="1"> NAME </option>
+        <option value="2"> INGREDIENTS </option>
+        <option value="3"> TAG </option>
+        <option value="4"> PRICE </option>
+      </select>
+      <input type="text" id="infoS" placeholder="Information">
+      <input type="submit" id = "submitSearch" value="SEARCH">
+      <input type="submit" id = "resetSearch" value="RESET">
+      <div id="errorMes"></div>
+
+      <div id="donuts">
+
+      </div>
+    </div>
+      
+  </section>
+
+  <section>
+    <div id="aboutUs" class="offVis">
+      <h1>DONUTS BY YOU</h1>
+      <div class="infoUs">
+        <h2 class="titleU"> OUR MISSION </h2>
+        <p class="contU">To make the most awesome doughnuts on the planet every single day</p>
+        <h2 class="titleU"> OUR COMMUNITY </h2>
+        <p class="contU">Giving back to our communities through fundraising and philanthropic work is at our core</p>
+        <h2 class="titleU"> OUR BELIEF </h2>
+        <p class="contU">Things are better enjoyed together, especially the sweet fluffy clouds of deliciousness we call doughnuts.</p>
+      </div>
+    </div>
+
+    
+  </section>
+
+   <section>
+    <div id="userInfo" class="offVis">
+      <section class="greeting"></section>
+      <h2 id="lpDes">LAST PAYMENTS</h2>
+      <div id="lastPay"></div>
+    </div>
+
+  </section>
+
+  <section>
+    <div id="userCart" class="offVis">
+      <h2 id="checkC"> Cart Review </h2>
+      <div id="check"></div>
+       <input type="submit" id = "submitPay" value="CHECK OUT">
+    </div>
+  </section>
+
+  </div>
+    </main>
+
+  </body>
+
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+  <script src="../js/home.js"></script>
+
+</html>
